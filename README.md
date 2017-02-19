@@ -29,14 +29,6 @@ A quick walkthrough of everything you need to get yourself up and running. As al
 #### Custom code
 * Add any custom css styling to **./src/scss/main.scss**.
 * Add any custom javascript to **./src/js/app.js**.
-* If you create any new html pages, ensure they contain the javascript files at the bottom of the body element:
-`<body>
-    [...]
-
-    <!-- always make sure these are the last two lines of the <body> element. -->
-    <script src="./js/vendor.js"></script>
-    <script src="./js/app.js"></script>
-</body>`
 
 <br>
 
