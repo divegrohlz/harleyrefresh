@@ -1,7 +1,9 @@
 Harley Refresh 
 ======================================================
 
-### Github
+<br>
+
+## Github
 
 <br>
 
@@ -13,8 +15,8 @@ Harley Refresh
 
 #### Add local files
 * Run the following command in the terminal window: `git status`. Files that are either modified or newly-created will display as red text.
-* Any new files you add to the local folder will be *untracked*, and any exisiting files that you modify will be *unstaged*. To push your local changes to the repository, Git must first be tracking the files (meaning it can detect any differences between your local files and the ones stored in the repository), and the files themselves must be *staged* for commit. 
-* You can *track* and *stage* files by using `git add <file>`. You can specify a single file path (e.g. `git add about.html`), or you can add all unstaged/untracked files with `git add .`. Tracking a newly-created file also automatically stages it for commit.
+* Any new files you add to the local folder will be **untracked**, and any exisiting files that you modify will be **unstaged**. To push your local changes to the repository, Git must first be tracking the files (meaning it can detect any differences between your local files and the ones stored in the repository), and the files themselves must be **staged** for commit. 
+* You can **track** and **stage** files by using `git add <file>`. You can specify a single file path (e.g. `git add about.html`), or you can add all unstaged/untracked files with `git add .`. Tracking a newly-created file also automatically stages it for commit.
 
 <br>
 
@@ -24,7 +26,7 @@ Harley Refresh
 <br>
 
 #### Pull remote files
-* Before *pushing* your changes to the repository, you have to first *pull*. *Pulling* grabs the remote repository contents and merges them into your local folder. To pull from the repository, simply run the follwing command `git pull`. Send me a message if there are ever any conflicts.
+* Before **pushing** your changes to the repository, you have to first **pull**. **Pulling** grabs the remote repository contents and merges them into your local folder. To pull from the repository, simply run the following command `git pull`. Send me a message if there are ever any conflicts at this point.
 
 <br>
 
