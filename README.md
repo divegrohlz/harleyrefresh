@@ -1,6 +1,60 @@
 Harley Refresh 
 ======================================================
 
+A quick walkthrough of everything you need to get yourself up and running. As always, give me a shout if you need a hand with anything.
+
+<br>
+
+## Workflow
+
+<br>
+
+#### Open the terminal
+* Open the project folder in Sublime Text.
+* Navigate to the project folder in Explorer (e.g. C:\Documents\harleyRefresh).
+* Right click anywhere inside the folder. Select 'Git Bash here'. A terminal window should pop up.
+
+<br>
+
+#### Run Gulp
+* In the terminal window, run the following command `gulp`.
+* This will compile all of your files in the src/ folder, and add them to dist/. 
+* dist/ is production code. You never want to modify anything in here. Always work from src/.
+* After compiling, the gulp task should automatically open the browser and begin watching for any changes you make to src/.
+* If you make any changes to the src/ files, gulp will automatically recompile the code, and automatically refresh your browser. 
+* If you want Gulp to stop running the watch task, press **ctrl + c** inside the terminal window.
+
+<br>
+
+#### Custom code
+* Add any custom css styling to **./src/scss/main.scss**.
+* Add any custom javascript to **./src/js/app.js**.
+* If you create any new html pages, ensure it contains the following code:
+```<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="./js/modernizr-2.6.2.min.js"></script>
+    </head>
+
+    <body>
+        [...]
+
+        <!-- always make sure these are the last two lines of the <body> element. -->
+        <script src="./js/vendor.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>```
+
 <br>
 
 ## Github
