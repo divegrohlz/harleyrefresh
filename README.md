@@ -30,7 +30,7 @@ A quick walkthrough of everything you need to get yourself up and running. As al
 * Add any custom css styling to **./src/scss/main.scss**.
 * Add any custom javascript to **./src/js/app.js**.
 * If you create any new html pages, ensure it contains the following code:
-```<!doctype html>
+`<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -53,7 +53,7 @@ A quick walkthrough of everything you need to get yourself up and running. As al
         <script src="./js/vendor.js"></script>
         <script src="./js/app.js"></script>
     </body>
-</html>```
+</html>`
 
 <br>
 
